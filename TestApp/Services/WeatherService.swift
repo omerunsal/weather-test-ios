@@ -22,7 +22,7 @@ enum WeatherError: LocalizedError {
 
 class WeatherService {
     private let apiKey = ""
-    private let baseURL = ""
+    private let baseURL = "https://api.openweathermap.org/data/2.5/weather"
     
     func fetchWeather(for city: String = "Istanbul") async throws -> WeatherResponse {
         let urlString = "\(baseURL)?q=\(city)&appid=\(apiKey)&units=metric"
