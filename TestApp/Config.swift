@@ -1,4 +1,4 @@
-struct Config {
-    static let weatherApiKey = "YOUR_API_KEY"
-    static let weatherBaseURL = "https://api.openweathermap.org/data/2.5/weather"
+struct WeatherConfig {
+    static let apiKey = ""
+    static let baseURL = "https://api.openweathermap.org/data/2.5/weather"
 } 
